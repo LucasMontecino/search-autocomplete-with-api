@@ -1,0 +1,30 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    min-height: 100vh;
+    width: 100vw;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-container input {
+    padding: 10px;
+    color: #fff;
+    transition: all .5s;
+    border-radius: 8px;
+    border: none;
+    outline: none
+}
+
+.main-container input:hover {
+    border: none;
+    background-color: #1B2631;
+}
